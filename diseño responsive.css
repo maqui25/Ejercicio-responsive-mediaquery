@@ -1,0 +1,147 @@
+
+.header{
+	width: 100%;	
+	color:blueviolet;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	text-align: center;
+
+}
+.logo {
+	font-size: 250%;
+	text-align: center;
+	padding: 20px;
+    font-weight: bold;
+    flex: 1;
+
+}
+.items{
+    flex-direction: row;
+	display: flex;
+	flex: 1;
+	justify-content: space-around;
+	align-items: center;
+
+}
+.imagen {width: 100vw;
+}
+.imagen img { 
+    width:100%; 
+    height: auto;
+}
+.textos{
+
+    display:flex;
+    flex-direction: row;
+	position: relative;
+	justify-content: space-between;
+}
+.textos div{
+	padding: 50px;
+}
+.contenedor {
+    border-bottom:dotted black 2px;
+    border-top:dotted black 2px;
+	padding-top: 10px;
+    padding-bottom: 10px;
+}
+.boxes {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start
+}
+.boxes div {
+	width: 10vw;
+	height: 10vw;
+	margin: 50px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+    color: white;
+}
+.box1 {
+	background-color: red;
+}
+
+.box2 {
+	background-color: blue;
+}
+
+.box3 {
+	background-color: green;
+}
+
+.box4 {
+	background-color: orange;
+}
+
+.box5 {
+	background-color: purple;
+}
+
+.box6 {
+	background-color: cyan;
+}
+
+.box7 {
+	background-color: magenta;
+}
+
+.box8 {
+	background-color: yellow;
+}
+
+.box9 {
+	background-color: brown;
+}
+
+.box10 {
+	background-color: gray;
+}
+.footer {
+    width: 100%;
+	background-color: black;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.parrafos {
+	display: flex;
+	flex-direction: row;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	justify-content: space-between;
+}
+.parrafo{
+	display:flex;
+	flex: 1;
+	padding-left: 20px;
+	padding-right: 20px;
+	
+}
+
+.footer div {
+	padding-right: 10px;
+	padding-left: 10px;
+	font-size: 10px;
+} 
+
+@media screen and (max-width: 800px) {
+
+	.items {
+		display: flex;
+		flex-direction: column;
+		padding: 25px;
+		
+	
+
+	}
+		.header {
+			flex-direction: column;
+			background-color: rgb(253, 193, 203);
+		}
+	
+}
